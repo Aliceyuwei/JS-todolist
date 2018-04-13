@@ -8,6 +8,7 @@ function add(e) {
     // console.log(text);
     var list = document.querySelector('.list');
     var text = document.createElement('li');
+    text.setAttribute('class','line')
     console.log(text);
     text.textContent = todo.value ;
     list.appendChild(text);
