@@ -8,10 +8,18 @@
     <title>JS todolist</title>
 </head>
 <body>
-    <div class="todolist">
-        <input type="text" value="" class="todo">
-        <input type="button" value="加入代辦" class="add">
-        <ul class="list"></ul>
+    <div class="wrap clearfix">
+        <div class="img">
+            <!-- <img class="logo" src="images/logo.svg"> -->
+        </div>
+        <div class="content">
+            <div class="addList">
+                <input type="text" class="text"  placeholder="請填寫代辦內容" required >
+                <input type="button" class="send" value="加入代辦">
+            </div>
+            <ul class="list"></ul>
+            
+        </div>
     </div>
     <script src="all.js"></script>
 </body>
